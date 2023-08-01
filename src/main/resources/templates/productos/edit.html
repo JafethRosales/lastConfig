@@ -58,6 +58,27 @@
                           autocomplete="off" th:text="${producto.descripcion}"> </textarea>
           </div>
 
+            <div class="mb-3">
+                <label for="categoria" class="form-label">Categoria</label>
+                <select type="text" class="form-select" id="categoria" name="categoria"
+                        placeholder="Elige una categoria" required
+                        autocomplete="off">
+
+                    <option selected disabled value ="">Elige una categoria</option>
+                    <option value ="televisores">Televisores</option>
+                    <option value ="oficina">Articulos de Oficina</option>
+                    <option value ="celulares">Celulares</option>
+                    <option value ="sonido">Aparatos de Sonido</option>
+                    <option value ="laptops">Computadoras</option>
+                    <option value ="electrodomesticos">Electrodomesticos</option>
+                    <option value ="accesorios">Accesorios</option>
+                    <option value ="entretenimiento">Entretenimiento</option>
+                    <option value ="otros">Otro</option>
+
+                </select>
+            </div>
+
+
           <div class=" row">
                 <div class="col">
                     <div class="mb-3">

@@ -1,0 +1,72 @@
+div.despegale{
+  width:100%;
+  background-color: #282828;
+  padding: 1em;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  color:white;
+}
+
+div.despegale .button{
+  display: none;
+}
+
+div.despegale .svg{
+  width:2em;
+  height:2em;
+  fill:white;
+}
+
+div.despegale .nav{
+  /* background-color: bisque; */
+
+}
+
+div.despegale .ul{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+div.despegale .li{
+  margin: 0 .5em;
+}
+
+div.despegale .button{
+    display: block;
+    cursor: pointer;
+  }
+
+div.despegale .nav{
+    width:100%;
+    /* display: none; */
+    height:0;
+    pointer-events: none;
+    overflow: hidden;
+    transition: all .5s ease;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+div.despegale .nav.activo{
+    /* display: block; */
+    height:50vh;
+    pointer-events: auto;
+  }
+
+div.despegale .ul{
+    flex-direction: column;
+  }
+
+div.despegale .li{
+    margin: 1rem 0;
+  }

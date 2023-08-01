@@ -1,0 +1,13 @@
+/* Arreglar barra de búsqueda */
+div.form-inline my-2 my-lg-0{
+    display: table;
+}
+
+div.sameLine{
+    display: table-cell;
+    width: 100%;
+}
+
+div.sameLine > input {
+    width: 100%;
+}
